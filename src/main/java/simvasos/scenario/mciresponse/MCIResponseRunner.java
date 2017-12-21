@@ -23,7 +23,7 @@ public class MCIResponseRunner {
         String testSession = "ABCPlus_AllTypes";
         int endTick = 7500; // 8000
         int minTrial = 1;
-        int maxTrial = 1000;
+        int maxTrial = 2;
 
         try {
             File simulationLogFile = new File(String.format("traces/" + testSession + "/" + testSession + "_simulation_logs.csv"));
